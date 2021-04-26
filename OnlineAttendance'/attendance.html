@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+     <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+          integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+     <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-eGJghel--HIDO1iXvsKbRzVoDifnik&callback=initMap"
+          type="text/javascript"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+          integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+          crossorigin="anonymous"></script>
+     <meta charset="utf-8">
+     <title>Attendance</title>
+     <link rel="stylesheet" href="/styles/attendance.css">
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <script src="/js/location.js"></script>
+     <script src="/js/main.js"></script>
+
+</head>
+
+<body>
+    
+          <div class="attendance mark-attd">
+               <h2>Attendance</h2>
+                    <input type="image" src="/img/attendance.png" width="200" height="200" alt="attendance" onclick="return currentLocation()">
+
+              
+              
+          </div>
+          <div class="form">
+               <h2>Leave Form</h2>
+                    <a href="leaveForm.html">
+                         <input type="image" src="/img/form.png" width="200" height="200" alt="leave form" onclick="return leaveForm()">
+                    </a>
+               
+          </div>
+          <div class="logout">
+               <h2>Logout</h2>
+                   <a href="index.html">
+                        
+                    <input type="image" src="/img/logout.png" width="200" height="200" alt="profile">
+               </a>
+          </div>
+         
+         
+
+          
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-eGJghel--HIDO1iXvsKbRzVoDifnik&callback=initMap"
+    type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src ="/js/main.js"></script>
+    <script src ="/js/location.js"></script>
+    
+  </head>
+  <body>
+      
+        <input type="submit" class="btn" value="Attendance" onclick="return currentLocation()" >
+        <input type="submit" class="btn" value="Application For Leave Form" onclick="return leaveForm()">
+   
+  </body>
+</html> -->

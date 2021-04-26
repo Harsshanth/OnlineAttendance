@@ -1,0 +1,54 @@
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#464161
+}
+h2{
+    color: rgb(159, 219, 219);
+}
+.attendance
+{
+    margin-left:.5%;
+    margin-top:5%;
+    padding:5%;
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+    position:relative;
+
+}
+.attendance:hover{
+    background-color: rgb(101, 126, 126);
+   
+}
+.form
+{
+    margin-left :.5%;
+    margin-top:5%;
+    padding:5%;
+    position:relative;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+
+
+}
+.form:hover{
+    background-color:rgb(101, 126, 126);
+   
+}
+.logout
+{
+    margin-left:.5%;
+    margin-top:5%;
+    padding:5%;
+    position:relative;
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.logout:hover{
+    background-color: rgb(101, 126, 126);
+   
+}
